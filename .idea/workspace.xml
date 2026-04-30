@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c5095c2-0049-4947-971a-430b2e411ad9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scintillante.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db_conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="9c5095c2-0049-4947-971a-430b2e411ad9" name="Changes" comment="create db">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d/storage_v2/_src_/schema/composers_db.6uj26g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5ea126b4-9f42-4854-83b2-61f428a84a1d/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="3CyY7dobfXacFex8rrWbb11GOR9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -109,12 +109,25 @@
       <updated>1777359110850</updated>
       <workItem from="1777359111891" duration="1691000" />
       <workItem from="1777573288768" duration="7000" />
-      <workItem from="1777573299088" duration="4516000" />
+      <workItem from="1777573299088" duration="4753000" />
     </task>
+    <task id="LOCAL-00001" summary="create db">
+      <option name="closed" value="true" />
+      <created>1777577873401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777577873402</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create db" />
+    <option name="LAST_COMMIT_MESSAGE" value="create db" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scintillante$scintillante.coverage" NAME="scintillante Coverage Results" MODIFIED="1777573765409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
