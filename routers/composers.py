@@ -6,7 +6,7 @@ from crud import composers
 
 router = APIRouter(prefix="/api/composers", tags=["composers"])
 
-@router.get("")
+@router.get("/")
 async def get_composers(skip: int = 0, limit: int = 100, db: AsyncSession = Depends(get_db)):
     composers_list = await composers.get_composers(db, skip, limit)
 
@@ -37,5 +37,22 @@ async def get_works(
             "works" : works,
             "total" : total,
             "hasMore" : has_more,
+        }
+    }
+
+@router.get("/works/detail")
+async def get_works_detail(
+        work_id: int = Query(..., alias="workId"),
+        db: AsyncSession = Depends(get_db)
+):
+    return {
+        "code": 200,
+        "msg": "successfully get work detail",
+        "data": {
+            "workId": work_id,
+            "workDetail": "work detail",
+            "relatedWorks": "related works",
+            "views": 1,
+            "related_news": []
         }
     }
